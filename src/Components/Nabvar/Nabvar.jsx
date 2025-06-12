@@ -37,7 +37,7 @@ export default function Navbar() {
         <>
             <nav className={navBGC == true ? "Navbar active" : "Navbar"}>
                 <div className="Logo">
-                    <img className="NavLogo" src="/zizzlingChef/Logo.jpg" alt="Zizzling Chef"/>
+                    <img className="NavLogo" src="/zizzling-chef-prototype/Logo.jpg" alt="Zizzling Chef"/>
                 </div>
 
                 <div className="NavList">
