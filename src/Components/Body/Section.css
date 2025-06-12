@@ -1,6 +1,6 @@
 /* HOME STYLE SECTION */
 #Home {
-    background-Image: url('/public/Home-Background.png');
+    background-Image: url('/Home-Background.png');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -55,7 +55,7 @@
 
 /* BLOG STYLE SECTION */
 #Blog {
-    background-Image: url('/public/White-Background-Design.png');
+    background-Image: url('/White-Background-Design.png');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -231,7 +231,7 @@
 
 /* CONTACT STYLE SECTION */
 #Contact {
-    background-Image: url('/public/Contact-Us-Background.png');
+    background-Image: url('/Contact-Us-Background.png');
     background-size: cover;
     background-position: center;
     height: 100vh;
