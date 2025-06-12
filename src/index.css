@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  user-select: none;
+}
+
+body::-webkit-scrollbar, 
+.tabsANDmenuContainer::-webkit-scrollbar, 
+.tabsANDmenu::-webkit-scrollbar,
+.menuContainer::-webkit-scrollbar {
+  display: none;
+}

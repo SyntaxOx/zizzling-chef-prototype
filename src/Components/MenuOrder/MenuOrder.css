@@ -1,0 +1,262 @@
+.menuContainer {
+    background-image: url('/public/MenuPageBG.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    overflow-y: hidden;
+}
+
+/* ---------------------------------------------------------------- */
+.OrderNavbar {
+    width: 100%;
+    font-family: Gabriola;
+    padding: 30px 0px 20px 50px;
+    font-size: 28px;
+}
+
+.NavbarContents {
+    display: flex;
+    align-items: center;
+}
+
+.OrderTitle {
+    padding-left: 50px;
+    color: white;
+}
+/*
+
+HTML:
+
+import { PiShoppingCartSimpleFill } from "react-icons/pi";
+
+    <PiShoppingCartSimpleFill className="OrderCount"/>
+    <div className="redNotice"><h1>1</h1></div>
+
+CSS:
+
+.OrderCount {
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.redNotice {
+    display: flex;
+    position: absolute;
+    top: 20px;
+    right: 80px;
+    width: 30px; 
+    height: 30px; 
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.redNotice h1 {
+    font-size: 30px;
+}
+
+*/
+
+/* ---------------------------------------------------------------- */
+.tabsANDmenuContainer {
+    padding: 50px 0;
+    max-height: 90vh;
+    overflow: auto;
+    width: 80%;
+}
+
+.tabsANDmenu {
+    margin-top: -100px;
+    margin-bottom: 20px;
+    overflow-y: scroll;
+}
+
+/* ---------------------------------------------------------------- */
+.Tabs {
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20%;
+    padding-top: 7%;
+}
+
+.TabCore {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.zizzlingIcon {
+    font-size: 70px;
+}
+
+.tabname {
+    font-size: 25px;
+    margin-top: -20px;
+    font-family: Gabriola;
+    letter-spacing: 2px;
+}
+
+.TabCore.active :where(.zizzlingIcon, .tabname) {
+    color: #FFC000;
+}
+
+/* ---------------------------------------------------------------- */
+.TabLogoName {
+    display: flex;
+    position: relative;
+    font-family: Gabriola;
+    color: aliceblue;
+    align-items: center;
+    filter: none;
+}
+
+.NameHead {
+    display: flex;
+    align-items: center;
+    color: #FFC000;
+}
+
+.iconHead {
+    margin: 0 10px 10px 0;
+}
+
+.TabLogoName {
+    display: flex;
+    position: relative;
+    align-items: center;
+    font-size: 25px;   
+    margin-top: 30px;
+}
+
+.TabLogoName::before {
+    content: "";
+    flex: 1 1;
+    border-bottom: 5px solid;
+    margin: auto;
+    margin-left: 200px;
+    margin-right: 50px;
+} 
+.TabLogoName::after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 5px solid;
+    margin: auto;
+    margin-left: 50px;
+    margin-right: 200px;
+}
+
+/* ---------------------------------------------------------------- */
+.menuOptions {
+    display: none;
+}
+
+.menuOptions.active {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    max-width: 100%;
+    margin: 20px 100px 10px 100px;
+}
+
+.menuBox {
+    display: block;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.521);
+    padding: 30px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.menuBox h1 {
+    font-size: 50px;
+    font-family: Gabriola;
+    letter-spacing: 3px;
+}
+
+.smallTitle h1 {
+    font-size: 45px;
+}
+
+.smallerTitle h1 {
+    font-size: 40px;
+}
+
+.menuBox p {
+    padding: 0 30px;
+    font-size: 20px;
+    font-family: Gabriola;
+    letter-spacing: 2px;
+}
+
+.menuBox h2 {
+    font-size: 30px;
+    font-family: Andalus;
+    padding: 20px 0;
+}
+
+/* ---------------------------------------------------------------- */
+.OrderView {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    right: 0;
+    height: 100%;
+    width: 20%;
+}
+
+.OrderViewBox {
+    font-family: Gabriola;
+    padding: 20px 10px;
+}
+
+.OrderViewTitle {
+    display: flex;
+    font-size: 50px;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+}
+
+.orders {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.scrollableOrder {
+    color: aliceblue;
+    background-color: rgba(218, 218, 218, 0.178);
+    height: 700px;
+}
+
+.OrderViewButton {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    right: 10px;
+}
+
+.OrderViewButton button {
+    font-family: Gabriola;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.OrderViewButton .checkoutButton {
+    background-color: #FFC000;
+}
