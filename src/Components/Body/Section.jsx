@@ -79,7 +79,7 @@ export default function Section() {
                     <div className="containerBlog">
                         <div className="blogs">
                             <div className="BlogPost">
-                                <img className="BlogImage" src="../Public/Images/Antipolo-Church.jpg" alt="BlogPost"/>
+                                <img className="BlogImage" src="/zizzlingChef/Images/Antipolo-Church.jpg" alt="BlogPost"/>
                                 <h2 className='BlogTitleItem'>Antipolo Church</h2>
                                 <p className='BlogDescriptionItem'>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio hic magni minima nam 
@@ -89,7 +89,7 @@ export default function Section() {
                                     dolore quod ratione quidem architecto, exercitationem a nam eligendi velit quasi magni minima!</p>
                             </div>
                             <div className="BlogPost">
-                                <img className="BlogImage" src="../Public/Images/Coffee.jpg" alt="BlogPost"/>
+                                <img className="BlogImage" src="/zizzlingChef/Images/Coffee.jpg" alt="BlogPost"/>
                                 <h2 className='BlogTitleItem'>Coffee</h2>
                                 <p className='BlogDescriptionItem'>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio hic magni minima nam 
@@ -99,7 +99,7 @@ export default function Section() {
                                     dolore quod ratione quidem architecto, exercitationem a nam eligendi velit quasi magni minima!</p>
                             </div>
                             <div className="BlogPost">
-                                <img className="BlogImage" src="../Public/Images/pancit.jpg" alt="BlogPost"/>
+                                <img className="BlogImage" src="/zizzlingChef/Images/pancit.jpg" alt="BlogPost"/>
                                 <h2 className='BlogTitleItem'>Pancit</h2>
                                 <p className='BlogDescriptionItem'>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio hic magni minima nam 
@@ -119,7 +119,7 @@ export default function Section() {
                     <div className="containerEvent">
                         <Slider {...settings}>
                             <div className="events">
-                                <img className="image" src="../public/Images/valentines.jpg" alt="valentines" />
+                                <img className="image" src="/zizzlingChef/Images/valentines.jpg" alt="valentines" />
                                 <h2 className='EventTitleItem'>Valentines</h2>
                                 <p className='EventDescriptionItem'>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio hic magni minima nam 
@@ -129,7 +129,7 @@ export default function Section() {
                                     dolore quod ratione quidem architecto, exercitationem a nam eligendi velit quasi magni minima!</p>
                             </div>
                             <div className="events">
-                                <img className="image" src="../public/Images/Halloween.jpg" alt="halloween" /> 
+                                <img className="image" src="/zizzlingChef/Images/Halloween.jpg" alt="halloween" /> 
                                 <h2 className='EventTitleItem'>Halloween</h2>
                                 <p className='EventDescriptionItem'>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio hic magni minima nam 
@@ -139,7 +139,7 @@ export default function Section() {
                                     dolore quod ratione quidem architecto, exercitationem a nam eligendi velit quasi magni minima!</p>  
                             </div>
                             <div className="events">
-                                <img className="image" src="../public/Images/GinderBread.jpg" alt="gingerBread" />
+                                <img className="image" src="/zizzlingChef/Images/GinderBread.jpg" alt="gingerBread" />
                                 <h2 className='EventTitleItem'>Cristmas</h2>
                                 <p className='EventDescriptionItem'>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio hic magni minima nam 
@@ -149,7 +149,7 @@ export default function Section() {
                                     dolore quod ratione quidem architecto, exercitationem a nam eligendi velit quasi magni minima!</p>
                             </div>
                             <div className="events">
-                                <img className="image" src="../public/Images/RainRain.jpg" alt="rainy" />
+                                <img className="image" src="/zizzlingChef/Images/RainRain.jpg" alt="rainy" />
                                 <h2 className='EventTitleItem'>Rainy</h2>
                                 <p className='EventDescriptionItem'>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio hic magni minima nam 
@@ -159,7 +159,7 @@ export default function Section() {
                                     dolore quod ratione quidem architecto, exercitationem a nam eligendi velit quasi magni minima!</p>
                             </div>
                             <div className="events">
-                                <img className="image" src="../public/Images/winter.jpg" alt="winter" /> 
+                                <img className="image" src="/zizzlingChef/Images/winter.jpg" alt="winter" /> 
                                 <h2 className='EventTitleItem'>Winter</h2>
                                 <p className='EventDescriptionItem'>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio hic magni minima nam 
@@ -169,7 +169,7 @@ export default function Section() {
                                     dolore quod ratione quidem architecto, exercitationem a nam eligendi velit quasi magni minima!</p>  
                             </div>
                             <div className="events">
-                                <img className="image" src="../public/Images/summer.jpg" alt="summer" />
+                                <img className="image" src="/zizzlingChef/Images/summer.jpg" alt="summer" />
                                 <h2 className='EventTitleItem'>Summer</h2>
                                 <p className='EventDescriptionItem'>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio hic magni minima nam 
@@ -198,7 +198,7 @@ export default function Section() {
                             <TfiEmail className="TfiEmail"/>
                             Zizzling.chef@gmail.com
                         </div>
-                        <img className="BusinessImage" src="../public/Logo.jpg" alt="Zizzling Chef" />
+                        <img className="BusinessImage" src="/zizzlingChef/Logo.jpg" alt="Zizzling Chef" />
                         <div className="BusinessName">Zizzling Chef</div>
                         <div className="ewankopa">&copy; 2021 Zizzling Chef. This Website is for PRACTICE PROJECT only</div>
                     </div>
