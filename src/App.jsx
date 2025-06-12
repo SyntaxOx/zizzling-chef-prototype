@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       
-      <BrowserRouter basename="/react">
+      <BrowserRouter basename="/zizzling-chef-prototype">
         <Routes>
           <Route path='/login' element={<Login/>}/>
           <Route path='' element={
