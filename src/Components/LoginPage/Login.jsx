@@ -34,7 +34,7 @@ export default function Login() {
         <>
             <div id="PageContainer">
                 <div className="LogInPageTitle">
-                    <img src="/zizzlingChef/Logo.jpg" alt="Zizzling Chef" className='LogInPageLogo'/>
+                    <img src="/zizzling-chef-prototype/Logo.jpg" alt="Zizzling Chef" className='LogInPageLogo'/>
                     <h1 className='LogInPageBusinessName'>Zizzling Chef</h1>
                     <h2 className='LogInPageSubHeading'>The Original and Traditional Restaurant</h2>
                 </div>
