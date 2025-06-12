@@ -1,4 +1,3 @@
-
 import './Section.css'
 
 import { useNavigate } from 'react-router-dom';
