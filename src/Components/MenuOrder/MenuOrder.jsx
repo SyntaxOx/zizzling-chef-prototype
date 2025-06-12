@@ -26,7 +26,7 @@ export default function MenuOrder() {
             <div className="menuContainer">
                 <nav className="OrderNavbar">
                     <div className="NavbarContents">
-                        <img className="NavLogo" src="../public/Logo.jpg" alt="Zizzling Chef" onClick={ClickHome}/>
+                        <img className="NavLogo" src="/zizzling-chef-prototype/Logo.jpg" alt="Zizzling Chef" onClick={ClickHome}/>
                         <h2 className='OrderTitle'>Zizzling Chef</h2>
                     </div>
                 </nav>
