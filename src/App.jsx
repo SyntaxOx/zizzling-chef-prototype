@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       
-      <BrowserRouter>
+      <BrowserRouter basename="/react">
         <Routes>
           <Route path='/login' element={<Login/>}/>
           <Route path='' element={
